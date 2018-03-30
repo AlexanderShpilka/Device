@@ -908,9 +908,9 @@ img {
   top: 0;
   margin: auto;
   background: #f0c52e;
-  -webkit-transition: height .3s linear;
-  -o-transition: height .3s linear;
-  transition: height .3s linear;
+  -webkit-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .promo-item .btn:hover::after,
@@ -1157,9 +1157,9 @@ img {
   margin: auto;
   background: #f0c52e;
   background-clip: content-box;
-  -webkit-transition: height .3s linear;
-  -o-transition: height .3s linear;
-  transition: height .3s linear;
+  -webkit-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .services-controls span {
@@ -1408,9 +1408,9 @@ img {
   top: 0;
   margin: auto;
   background: #f0c52e;
-  -webkit-transition: height .3s linear;
-  -o-transition: height .3s linear;
-  transition: height .3s linear;
+  -webkit-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .company-info .btn:hover::after,
@@ -2095,9 +2095,9 @@ img {
   top: 0;
   margin: auto;
   background: #f0c52e;
-  -webkit-transition: height .3s linear;
-  -o-transition: height .3s linear;
-  transition: height .3s linear;
+  -webkit-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .write-us-form .btn:hover::after,
@@ -2621,9 +2621,9 @@ img {
     top: 0;
     margin: auto;
     background: #f0c52e;
-    -webkit-transition: height .3s linear;
-    -o-transition: height .3s linear;
-    transition: height .3s linear;
+    -webkit-transition: height 0.2s ease-in-out;
+    -o-transition: height 0.2s ease-in-out;
+    transition: height 0.2s ease-in-out;
 }
 
 .filter-form .btn:hover::after,
@@ -2921,9 +2921,9 @@ img {
   top: 0;
   margin: auto;
   background: #f0c52e;
-  -webkit-transition: height .3s linear;
-  -o-transition: height .3s linear;
-  transition: height .3s linear;
+  -webkit-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .catalog-item .btn:hover::after,
