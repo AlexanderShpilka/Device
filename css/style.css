@@ -56,7 +56,7 @@
   20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }
 
-@keyframes promo-opacity {
+@keyframes opacity-effect {
   0% {
     opacity: 0;
   }
@@ -65,7 +65,7 @@
   }
 }
 
-@keyframes promo-scale {
+@keyframes scale-effect {
   0% {
     transform: scale(1.03);
   }
@@ -741,27 +741,27 @@ img {
 #selfie-radio-btn:checked ~ .promo-slider .selfie-stick-wrapper {
   display: block;
 
-  animation-name: promo-opacity;
+  animation-name: opacity-effect;
   animation-duration: 0.2s;
-  animation-name: promo-scale;
+  animation-name: scale-effect;
   animation-duration: 0.2s;
 }
 
 #fitness-radio-btn:checked ~ .promo-slider .fitness-bracelet-wrapper {
   display: block;
 
-  animation-name: promo-opacity;
+  animation-name: opacity-effect;
   animation-duration: 0.2s;
-  animation-name: promo-scale;
+  animation-name: scale-effect;
   animation-duration: 0.2s;
 }
 
 #quadrupter-radio-btn:checked ~ .promo-slider .quadrupter-wrapper {
   display: block;
 
-  animation-name: promo-opacity;
+  animation-name: opacity-effect;
   animation-duration: 0.2s;
-  animation-name: promo-scale;
+  animation-name: scale-effect;
   animation-duration: 0.2s;
 }
 
@@ -1234,14 +1234,20 @@ img {
 
 #delivery-radio-btn:checked ~ .services-items .delivery {
   display: block;
+
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 #warranty-radio-btn:checked ~ .services-items .warranty {
   display: block;
+
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 #credit-radio-btn:checked ~ .services-items .credit {
   display: block;
+
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 /* ------------------------------ Manufacturers ----------------------------- */
