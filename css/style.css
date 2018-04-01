@@ -989,6 +989,8 @@ img {
   margin-bottom: 33px;
 
   background-color: #f7e296;
+
+  transition: background-color 160ms;
 }
 
 .popular-item-image img {
