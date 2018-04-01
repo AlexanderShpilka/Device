@@ -2,6 +2,7 @@
 
 * Студент: [Александр Шпилька](https://up.htmlacademy.ru/htmlcss/20/user/616093).
 * Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
+* Ссылка на gh-pages: [Device](https://alexandershpilka.github.io/Device/).
 
 ---
 
