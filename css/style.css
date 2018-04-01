@@ -2225,6 +2225,8 @@ img {
 .modal-map .modal-close:hover,
 .modal-map .modal-close:focus {
   opacity: 1;
+
+  animation: modal-close-effect-hover 0.3s;
 }
 
 .modal-map .modal-close:active {
