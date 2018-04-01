@@ -74,6 +74,18 @@
   }
 }
 
+@keyframes modal-close-effect-hover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* ----------------------------- General styles ----------------------------- */
 
 body {
@@ -741,28 +753,19 @@ img {
 #selfie-radio-btn:checked ~ .promo-slider .selfie-stick-wrapper {
   display: block;
 
-  animation-name: opacity-effect;
-  animation-duration: 0.2s;
-  animation-name: scale-effect;
-  animation-duration: 0.2s;
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 #fitness-radio-btn:checked ~ .promo-slider .fitness-bracelet-wrapper {
   display: block;
 
-  animation-name: opacity-effect;
-  animation-duration: 0.2s;
-  animation-name: scale-effect;
-  animation-duration: 0.2s;
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 #quadrupter-radio-btn:checked ~ .promo-slider .quadrupter-wrapper {
   display: block;
 
-  animation-name: opacity-effect;
-  animation-duration: 0.2s;
-  animation-name: scale-effect;
-  animation-duration: 0.2s;
+  animation: opacity-effect 0.2s, scale-effect 0.2s;
 }
 
 .promo-item {
@@ -1285,6 +1288,8 @@ img {
 
 .manufacturer-logo:hover .logo-color {
   display: block;
+
+  animation: scale-effect 0.2s;
 }
 
 /* ------------------------------ Company-info ------------------------------ */
@@ -2164,6 +2169,8 @@ img {
 .write-us .modal-close:hover,
 .write-us .modal-close:focus {
   opacity: 1;
+
+  animation: modal-close-effect-hover 0.3s;
 }
 
 .write-us .modal-close:active {
