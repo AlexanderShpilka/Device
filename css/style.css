@@ -56,6 +56,24 @@
   20%, 40%, 60%, 80% { -webkit-transform: translateX(10px); transform: translateX(10px); }
 }
 
+@keyframes promo-opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes promo-scale {
+  0% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* ----------------------------- General styles ----------------------------- */
 
 body {
@@ -722,14 +740,29 @@ img {
 
 #selfie-radio-btn:checked ~ .promo-slider .selfie-stick-wrapper {
   display: block;
+
+  animation-name: promo-opacity;
+  animation-duration: 0.2s;
+  animation-name: promo-scale;
+  animation-duration: 0.2s;
 }
 
 #fitness-radio-btn:checked ~ .promo-slider .fitness-bracelet-wrapper {
   display: block;
+
+  animation-name: promo-opacity;
+  animation-duration: 0.2s;
+  animation-name: promo-scale;
+  animation-duration: 0.2s;
 }
 
 #quadrupter-radio-btn:checked ~ .promo-slider .quadrupter-wrapper {
   display: block;
+
+  animation-name: promo-opacity;
+  animation-duration: 0.2s;
+  animation-name: promo-scale;
+  animation-duration: 0.2s;
 }
 
 .promo-item {
