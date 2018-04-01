@@ -2,7 +2,8 @@
 
 * Студент: [Александр Шпилька](https://up.htmlacademy.ru/htmlcss/20/user/616093).
 * Наставник: [Александр Кошара](https://htmlacademy.ru/profile/rednaxxxela).
-* Ссылка на gh-pages: [Device](https://alexandershpilka.github.io/Device/).
+* Ссылка на gh-pages (index): [Device](https://alexandershpilka.github.io/Device/).
+* Ссылка на gh-pages (inner page): [Device - Catalog](https://alexandershpilka.github.io/Device/catalog.html).
 
 ---
 
